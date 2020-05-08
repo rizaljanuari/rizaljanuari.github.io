@@ -1,2 +1,24 @@
 /* import fonts from fonts.css file */
 @import url(./fonts.css);
+
+/* import css varoables */
+@import url(./partials/_variables.css);
+
+/* start navigation  */
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: var(--lato);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;
+}
+
+/* end navigation  */

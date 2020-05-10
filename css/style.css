@@ -55,7 +55,16 @@
     font-weight: 600;
 } 
 
-.site-main .site-banner .site-title h3::after{
+.sec-name{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+} 
+
+
+
+/* .site-main .site-banner .site-title h3::after{
     content: " ";
     height: 2px;
     width: 18vw;
@@ -64,14 +73,18 @@
     margin-left: 5%;
     transform: translateY(-10px);
 
-}
+} */
 
 .site-main .site-banner .site-title h1{
-    font-size: 5rem;
+    font-size: 4rem;
+    padding-bottom: 1%;
 }
 
 .site-main .site-banner .site-title h4{
     font-size: 1.5rem;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    
 }
 
 .site-main .site-banner .banner-image > img{

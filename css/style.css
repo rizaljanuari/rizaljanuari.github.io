@@ -57,6 +57,7 @@
 
 .sec-name{
     background: var(--gradient-color);
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     

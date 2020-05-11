@@ -1,69 +1,63 @@
+/* import fonts from fonts.css file */
 
-/* import fonts from fonts.css file */ 
 @import url(./fonts.css);
+/* css variables */
 
-
-/* css variables */ 
 @import url(./partials/_variables.css);
+/* import global styling */
 
-/* import global styling */ 
 @import url(./partials/_global.css);
+/* start navigation */
 
-
-/* start navigation */ 
-
-.header_area .main-menu .navbar .navbar-brand{
+.header_area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 2rem;
 }
 
-.header_area .main-menu .navbar{
-    padding: 1rem 20rem ;
+.header_area .main-menu .navbar {
+    padding: 1rem 20rem;
 }
 
-.header_area .main-menu .nav-item .nav-link{
+.header_area .main-menu .nav-item .nav-link {
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
 }
 
-.header_area .main-menu .navbar-nav .active a{
+.header_area .main-menu .navbar-nav .active a {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav a:hover{
+.header_area .main-menu .navbar-nav a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-/* end navigation */ 
+/* end navigation */
 
 /* Banner area */
 
-.site-main .site-banner{
+.site-main .site-banner {
     background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
     /* background-position: 0% 50%; */
 }
 
-.site-main .site-banner .site-title h3{
+.site-main .site-banner .site-title h3 {
     padding-top: 35%;
     font-weight: 600;
-} 
+}
 
-.sec-name{
+.sec-name {
     background: var(--gradient-color);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-} 
-
-
+}
 
 /* .site-main .site-banner .site-title h3::after{
     content: " ";
@@ -76,40 +70,66 @@
 
 } */
 
-.site-main .site-banner .site-title h1{
+.site-main .site-banner .site-title h1 {
     font-size: 4rem;
     padding-bottom: 1%;
 }
 
-.site-main .site-banner .site-title h4{
+.site-main .site-banner .site-title h4 {
     font-size: 1.5rem;
     text-transform: lowercase;
     margin-bottom: 1rem;
-    
 }
 
-.site-main .site-banner .banner-image > img{
+.site-main .site-banner .banner-image>img {
     padding: 7rem 0;
     width: 90rem;
 }
-
 
 /* end of banner area  */
 
 /* Start about area */
 
-.site-main .about-area{
+.site-main .about-area {
     padding: 8rem 5rem;
 }
 
-.site-main .about-area .about-title h2 >span{
+.site-main .about-area .about-title h2>span {
     display: block;
     font: normal bold 38px/40px var(--lato);
     letter-spacing: 21px;
 }
 
-.site-main .about-area .about-title .paragraph > p{
+.site-main .about-area .about-title .paragraph>p {
     padding: .4rem 0;
 }
 
 /* End about area */
+
+/* start services area */
+
+.site-main .services-area {
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services.title {
+    padding: 0 10rem;
+}
+
+.site-main .services-area .services.title h {
+    font-size: 35px;
+}
+
+.site-main .services-area .services {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main .services-area .services:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/* end services area */

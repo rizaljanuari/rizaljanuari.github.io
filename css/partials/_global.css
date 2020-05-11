@@ -8,7 +8,7 @@
 
 
  /* BUTTON */
- 
+
  .button{
      padding: .8rem 2.2rem;
      font: normal 500 16px/20px var(--lato);
@@ -51,4 +51,9 @@
      background-color: var(--gradient-color);
      color: whitesmoke;
      box-shadow: var(--box-shadow);
+ }
+
+ p.para{
+     color: var(--text-color);
+     font: normal 500 16px/25px var(--lato);
  }

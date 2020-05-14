@@ -57,3 +57,12 @@
      color: var(--text-color);
      font: normal 500 16px/25px var(--lato);
  }
+
+ button:focus,
+ button:active
+ button:hover
+ .btn:active{
+     outline: 0px !important;
+     box-shadow: none !important;
+ }
+ 

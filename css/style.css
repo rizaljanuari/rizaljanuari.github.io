@@ -144,8 +144,15 @@
 .site-main .project-area .button-group button{
     background: transparent;
     border: none;
-    font: normal 500 16px/130px var(--lato);
+    font: normal 500 18px/130px var(--lato);
     text-transform: uppercase;
+    /* color: black; */
+    transition-duration: 0.4s;
+}
+
+.site-main .project-area .button-group button:hover{
+
+    color: black;
 }
 
 .site-main .project-area .button-group button + button{

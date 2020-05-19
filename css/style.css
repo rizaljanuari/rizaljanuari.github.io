@@ -152,7 +152,8 @@
 
 .site-main .project-area .button-group button:hover{
 
-    color: black;
+    /* color: black; */
+    color: var(--gradient-color);
 }
 
 .site-main .project-area .button-group button + button{
@@ -168,3 +169,43 @@
 }
 
 /* End Project area */
+
+/* About area */
+
+.about-title p{
+    padding: 1rem 7rem;
+}
+
+.client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+
+}
+
+.client .client-img{
+    padding: 2rem;
+   
+
+}
+
+.client .about-client{
+    padding-top: 2rem;
+}
+
+.client .about-client h4{
+    font: normal 500 21px/20px var(--lato);
+}
+
+.client .about-client p{
+    font-size: 14px;
+}
+
+.owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+
+/* End About area */

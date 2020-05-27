@@ -36,7 +36,7 @@ $(document).ready(function () {
     })
 
     // Sticky navigation menu
-    let nav_offset_top = $('.header_area').height() + 50;
+    let nav_offset_top = $('.header_area').height() + 20 ;
 
     function navbarFixed(){
         if($('.header_area').length){
